@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sungmun
+  host: sungmun
+  disk_quota: 1024M
+  services:
+  - sungmun-AdvancedMobileAccess
+  - sungmun-imfpush
+  - sungmun-cloudantNoSQLDB
